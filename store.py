@@ -30,7 +30,7 @@ class Items:
         for item in items:
             Items(
                 name=item.get('name'),
-                price=int(item.get('price')),
+                price=int(item.get('price')),  # Convert string to int
                 quantity=int(item.get('quantity'))
             )
 
